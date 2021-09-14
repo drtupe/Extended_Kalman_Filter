@@ -17,7 +17,7 @@ The threshold for the values should be as below which you can see have been sati
 * 0.11 less than or equal to Px and Py.
 * 0.52 less than or equal to Vx and Vy.
 
-<img src = "Result_img/final.gif"
+<img src = "Result_img/final.gif">
 
 ## RMSE Values :
 
