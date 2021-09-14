@@ -1,5 +1,4 @@
 # Extended Kalman Filter Project Starter Code
-Self-Driving Car Engineer Nanodegree Program
 
 In this project I have utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements.
 
@@ -29,13 +28,21 @@ This project utilizes an EKF (Extended Kalman Filter) implemented in C++ to esti
 ## Implementation :
 
 ├── FusionEKF.cpp
+
 ├── FusionEKF.h
+
 ├── json.hpp
+
 ├── kalman_filter.cpp
+
 ├── kalman_filter.h
+
 ├── main.cpp
+
 ├── measurement_package.h
+
 ├── tools.cpp
+
 └── tools.h
 
 * main.cpp - reads in data, runs the Kalman filter and calculates RMSE values after each measurement.
