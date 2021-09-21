@@ -55,7 +55,7 @@ This project utilizes an EKF (Extended Kalman Filter) implemented in C++ to esti
 
 * tools.cpp - tool functions to calculate RMSE and the Jacobian matrix, used to convert polar to cartesian coordinates.
 
-## Project Working and results :
+## Project Working and Results :
 
 | RMSE					|     Dataset 1 			| Dataset 2			| 
 |:---------------------:|:--------------------------|------------------:| 
