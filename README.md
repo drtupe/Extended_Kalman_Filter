@@ -89,7 +89,7 @@ Green markers are the car's position as estimated by the Kalman Filter.
 From these results we can say that, Kalman filter does a good job of tracking the car's position with significantly reduced noise.
 
 
-## Dependencies :
+## Dependencies:
 
 * cmake >= 3.5
     * All OS: [Click here for installation instructions](https://cmake.org/install/)
@@ -102,7 +102,7 @@ From these results we can say that, Kalman filter does a good job of tracking th
     * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
     * Windows: recommend using [MinGW](http://www1.mingw.org/?tm=1&subid4=1629570797.0308880000&kw=compiler&KW1=Windows%20Development%20Software&KW2=C%20Compiler&KW3=Windows%20Server%20Virtual%20Machine&searchbox=0&domainname=0&backfill=0).
     
-## Build :
+## Build:
 
 1. Clone this repo.
 2. Make a build directory: mkdir build && cd build
@@ -112,7 +112,7 @@ From these results we can say that, Kalman filter does a good job of tracking th
 5. Start the Simulator and wait for connection to be established between ExtendedKF and Simulator.
 
 
-## Conclusion :
+## Conclusion:
 
 A standart Kalman Filter can only handle linear equations. Extended Kalman Filter (EKF) allows us to use non-linear equations, EKF uses Jacobian matrix to linearize non-linear functions. There is another type, Unscented Kalman Filter (UKF) which is also allows us to use non-linear equations, in UKF, it does not need to linearize non-linear functions, instead, UKF takes representative points from a Gaussian distribution.
 
