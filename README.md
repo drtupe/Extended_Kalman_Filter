@@ -8,7 +8,7 @@ The goal of this project is to build an Extended Kalman Filter using C++ and use
 
 The key metrics are RMSE values for both position and velocity of the tracked object.
 
-## Expected Results :
+## Expected Results:
 
 The success metrics for this project is the RMSE values for 2 datasets.
 
@@ -19,15 +19,15 @@ The threshold for the values should be as below which you can see have been sati
 
 <img src = "Result_img/final.gif">
 
-## RMSE Values :
+## RMSE Values:
 
 The following table lists the results of both datasets on which the algorithm has been tested.
 
-## Introduction :
+## Introduction:
 
 This project utilizes an EKF (Extended Kalman Filter) implemented in C++ to estimate the state of a moving object using noisy LIDAR and RADAR data measurements passed via a simulator. Here's a great resource to get up to speed with the basics of a Kalman Filter.
 
-## Implementation :
+## Implementation:
 
 ├── FusionEKF.cpp
 
